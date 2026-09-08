@@ -1,0 +1,1 @@
+gcc -O2 -mwindows src/launcher/launcher_win32.c -o launcher.exe -lole32 -lshell32 -luuid -lcomctl32 -lcomdlg32 -lgdi32
