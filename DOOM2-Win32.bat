@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set DOOMWADDIR=%~dp0game
+set DOOMWADDIR=%~dp0wad
 set HOME=%~dp0
 echo Choose resolution:
 echo 1 - 640x480
