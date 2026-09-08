@@ -1,0 +1,758 @@
+TABLE OF CONTENTS
+	The Story Continues             ...     1
+	Using the DOOM II Menu          ...     2
+	On-Screen Information           ...     4
+	Controlling The Action          ...     5
+	Firepower and How to Use It     ...     7
+	Commands and Shortcuts          ...     8
+	Dangerous DOOM II Environment   ...     9
+	Health and Armor                ...     10
+	Power-Ups                       ...     11
+	Artifacts                       ...     12
+	The Enemy                       ...     13
+	
+	See Addendum for installation instructions
+
+PLEASE DON'T MAKE ILLEGAL COPIES
+
+The program you've purchased was produced through the efforts of 
+many people. Don't make copies for others who have not paid for 
+the right to use DOOM II. To report copyright violations to the 
+Software Publishers Association, call 1-800-388-PIR8 or write:
+
+Software Publishers Association
+Suite 901
+1101 Connecticut Avenue NW
+Washington, DC 20036
+
+This program is protected by federal and international copyright.
+IMPORTANT NOTE TO MULTIPLAYER MODE USERS
+
+When you are playing with friends, certain rules for playing DOOM 
+II change significantly. Full details on this are included on the 
+separate Multiplayer Addendum found in your game box.
+IF YOU REQUIRE TECHNICAL ASSISTANCE
+
+If you are having problems running DOOM II, please refer to the 
+Troubleshooting Addendum. If you require further assistance call 
+GT Interactive Software's Technical Support at: (970) 522-1797.
+
+THE STORY CONTINUES - DOOM II: Hell on Earth
+
+Back at last.  After days of hard fighting in space, you've returned 
+home on well-earned leave. You're one of Earth's crack soldiers, 
+hard-bitten, tough, and heavily-armed. When the alien invasion 
+struck Mars, you were the first on the scene. By killing, killing, and 
+killing, you won. You stopped the invasion, saved Mars base, and 
+became a war hero. What they don't talk about so much is that you 
+were the only survivor.
+	But that's all behind you now. You've quit the military, and 
+are heading home. Your drop pod lands with a crunch. You open 
+`er up, and look out. Damn! The city ahead is on fire. What the 
+devil is going on? You stagger forward, clutching at your sidearm. 
+Packs of refugees are fleeing the flaming metropolis. A band of 
+them shriek in terror. You squint. What's that? Someone is 
+attacking the refugees. You rush up and blast away, killing the 
+troublemaker. It looks like a human, but something's wrong. His 
+mouth is filled with half-chewed flesh, and he's all messed up, like 
+a zombie from a bad horror movie. Hell, not again! 
+	You can feel it. It's all starting again, just like on Mars. First, 
+people are taken over, turned into cannibal Things. Then the real 
+horror starts, the deformed monstrosities from Outside. But now it's 
+on Earth
+	It turns out that the invaders are all over. Monsters range 
+from Tokyo to Timbuktu, from Stockholm to Scranton. Billions are 
+dead.  Some people have been transformed into flesh-eating 
+mutants, but a few, a very few, are still alive and fully human. The 
+wise men of humanity have evolved a plan to save what's left of the 
+human race. They have built enormous ships to carry the 
+remaining people into space, safely away from the ruined world. 
+	Unfortunately, Earth's only ground spaceport has just been 
+taken over by the demons. They've instituted a sort of force field  -  
+a flame barrier  -  over the port; no ships can land or take off. You 
+gotta go back into action. The pathetic remnants of Earth's soldiers 
+are making an assault on the invaders at the spaceport. If you win, 
+you might be able to turn off the barrier, so that the ships can 
+leave, and Homo sapiens may not go extinct just yet. If you lose, 
+that's it. Humanity is history.
+	You and your comrades make their attack. Soon, brave men 
+drop like flies. You lose track of your friends, though sometimes 
+you can hear them scream when they die, and the sounds of 
+combat echo from deep within the starbase. 
+	Something hisses with rage from the steel tunnels ahead. 
+They know you're here. They have no pity, no mercy, take no 
+quarter, and crave none. They're the perfect enemy, in a way. No 
+one's left but you. You - and Them.
+
+OBJECT OF THE GAME
+
+Welcome to DOOM II, a lightning-fast virtual reality adventure 
+where you are the toughest space trooper ever to suck vacuum. 
+Your mission is to fight your way though the demon-infested earth 
+in the hopes of saving the Earth from an eternity in Hell.
+	The gameplay for DOOM II is simple. This isn't a 
+cumbersome adventure game, but an action-oriented slugathon. To 
+survive all you need is brains and a killer instinct. 
+
+
+USING THE DOOM II MENU
+
+When you run DOOM II a self-running demo will begin. To get to 
+the menu press the Spacebar. Use the arrow keys, mouse, or 
+joystick to move the skull cursor up and down. When the skull is 
+adjacent to a desired selection, press the Enter key, left mouse 
+button, or joystick Fire button to activate that selection.
+
+If you're in a game, you can bring up the menu at any time by 
+pressing the Escape key. Many of the Menu options can be 
+activated directly by using a function key, thus bypassing the 
+menus entirely. To exit the menu, press the Escape key or to return 
+to the previous menu from a submenu press the Backspace key.
+NEW GAME
+If you want to jump into the action, select this. DOOM II will ask you 
+to set the difficulty level. Each difficulty level differs in the 
+toughness of the enemies you'll face. Beware the Nightmare level 
+of difficulty. It is definitely not suitable for inexperienced game 
+players.
+
+LOADING AND SAVING YOUR GAME (F2 AND F3)
+Games can be saved or loaded at any time during the gameplay. 
+To save a game, move the skull cursor to any empty slot (or one 
+you don't mind writing over), and press the Enter key. This option 
+is only available if you are currently in a game. To load a game, 
+simply select the appropriate game from the Load Game menu.
+
+QUICKSAVE: Pressing the function key F6 allows you to Save a 
+game without leaving the action. The first time QUICKSAVE is 
+used in a given game, the standard Save menu appears. Select a 
+slot. From then on, pressing F6 automatically saves the game to 
+that slot without interrupting the fun of smackin' baddies around. 
+Pressing F9 loads in the last QUICKSAVE game after prompting 
+you. 
+
+QUIT GAME (F10)
+Quit Game enables you to quit from DOOM II and return to DOS.
+
+END GAME (F7)
+This allows you to end the current game without exiting to DOS or 
+loading a new game.
+
+MESSAGES (F8)
+In DOOM II, whenever you pick up an item, you'll receive 
+information about the thing you just picked up. This option lets you 
+toggle DOOM II's messages on and off.
+
+GRAPHIC DETAIL (F5)
+The default setting for the screen detail is HIGH. If you have a 
+slower computer or video card, and the action is too jerky, you may 
+wish to select LOW to make the game action smoother.
+
+SCREEN SIZE (+ and -)
+Just below this option is a bar with a sliding marker. When this 
+option is selected, you can use the arrow keys to slide the marker 
+back and forth to adjust the viewing area. A smaller viewing area 
+increases the smoothness of the animation on slower systems.
+
+SOUND VOLUME (F4)
+This selection also has a bar with a sliding marker, allowing 
+adjustment of the volume from "off" to "maximum." These bars 
+modify the music as well as the sound effects volume.
+
+MOUSE SENSITIVITY
+This selection lets you adjust the sensitivity of your mouse control. 
+Just below this option is a bar with a sliding marker. When this 
+option is selected, you can use the arrow keys to slide the marker 
+back and forth to adjust the sensitivity of the mouse.
+
+GAMMA CORRECTION (F11)
+On some monitors, DOOM II may appear too dark. Press the 
+function key, F11 to lighten the screen through five different 
+brightness levels.
+
+TIP: Save your game and save it often. When you die, you're back 
+to the beginning of the level, toting that little pistol again. That ain't 
+good, especially after you progress to some of the tougher levels.
+
+
+ON-SCREEN INFORMATION
+
+DOOM II provides on-screen information that's necessary to 
+survive. 
+
+THE STATUS BAR
+
+1. MAIN AMMO: In big fat numbers, you see the number of shots 
+you've got left in the weapon you're currently using.
+
+2. HEALTH: You start out at 100%, but you won't stay there long. 
+At 0% it's time to start over. Try a little harder next time!
+
+3. ARMS: This list of numbers shows which weapons are available. 
+If a number is highlighted, the weapon is accessible by pressing 
+that number. ("1" is always available.)
+
+4. YOUR MUG: This portrait isn't just for looks. When you're hit, 
+your face looks in the direction from which the damage came, 
+telling you which direction to return fire. Also, as you take damage 
+you'll begin to look like raw hamburger - as shown to the left.
+
+5. ARMOR: Your armor helps you out as long as it lasts. Keep an 
+eye on it, because when it goes, you might, too.
+
+6. KEY CARDS: You can see any keys you possess right here. 
+There are three key colors; Yellow, Red, and Blue.
+
+7. AMMO: This shows how much of each type of ammo you're 
+carrying and the maximum amount you could carry - if you had it.
+
+MESSAGES
+Often you'll find yourself running over various items. DOOM II tells 
+you what you're picking up by printing a message on the screen - 
+unless messages are off. Pressing RETURN will display the last 
+message.
+
+THE AUTOMAP
+To help you find your way around DOOM II, you're equipped with 
+an automap device. By pressing the Tab key, you replace your 
+normal view with a top-down map of everything you've seen up to 
+date. The white arrow represents you, and points in the direction 
+you're looking.You can zoom in and out by pressing "+" or "-." 
+Press the number "0" to toggle between zoom and full view. To 
+mark your location on the map press the "M" key. This will place a 
+number over your location. To clear all the numbers from the map, 
+press the "C" key.
+
+MOVING IN THE AUTOMAP:
+Using the arrow keys, you can move yourself, while viewing the 
+Automap. This is dangerous, since you can't see the enemy while 
+viewing the Automap. To scroll the Automap without moving 
+yourself, turn off Follow mode. Pressing the "F" key will toggle 
+Follow mode on and off. 
+
+
+CONTROLLING THE ACTION
+Most of the play commands in DOOM II are a simple keypress 
+away. You can use either your keyboard, mouse, joystick, and 
+combinations of both to move, pick up items, shoot, and open 
+doors.
+
+MOVING
+At first, you might find yourself bumping into walls while demons 
+beat on you. Once you've got movement down, everything else 
+follows.
+
+WALKING: Use the up and down arrow keys to walk forward and 
+backward.
+
+TURNING: The left and right arrow keys turn you left and right.
+
+RUNNING: Hold down the right Shift key and the appropriate arrow 
+key to speed yourself up.
+
+STRAFE: By holding down the Alt key and the right or left arrow 
+key, you can sidestep, rather than turn left or right. 
+
+Note: Jumping is very important for successfully completing DOOM 
+II. Though there is no Jump Key, you can leap from ledges by 
+getting a running start. The faster you are moving the further you 
+will go.
+
+TIP: When travelling narrow passages many players have found it 
+useful to examine the Automap in a magnified mode enabling them 
+to see exactly where to step.
+
+JOYSTICK OR MOUSE: If you are using a joystick, use button 1 
+to shoot and button 2 to open doors and activate switches. Gravis 
+PC Gamepads have a third and fourth button. These can be used 
+as a Strafe and a Run button, respectively. If you are using a 
+mouse, use button 1 to shoot and button 2 to walk forward. Double-click 
+button 2 to open doors and activate switches. On a three-button 
+mouse, use button 3 to strafe and double-click button 3 to use 
+doors and switches.
+
+PICKING UP STUFF
+To pick up an object, just walk over it. You're smart, and know if 
+you need to take it.
+
+USING DOORS, SWITCHES & ELEVATORS
+To open most doors and operate switches, stand directly in front of 
+them and press the Spacebar. When you successfully operate a 
+switch, it will change in some way (lights up, flips a handle, etc.) If 
+a switch does not change after a couple of tries, it is probably 
+assigned to do a task that cannot yet be accomplished.
+
+LOCKED DOORS: Some doors have security locks, and require 
+you to have a color coded (yellow, red, and blue) security card or 
+skull key to open them. Other locked doors are operated by a 
+switch on a nearby wall. Rather than walking up  to the door, you'll 
+need to operate the switch.
+
+HIDDEN DOORS: Some doors are hidden. Many of these can be 
+opened by finding a switch. In some cases you just need to walk up 
+to the wall and press the Spacebar. If you've found a secret door, it 
+will open for you. There are clues that reveal a secret door - a wall 
+that's shifted down or a different color, a flashing light on a wall, 
+etc.
+
+ELEVATORS: You'll see platforms that raise and lower. Some 
+platforms operate continuously, while others must be activated. 
+Some of them sense your proximity and lower automatically. 
+Others have a nearby switch. Those without a switch can usually 
+be operated by walking up to the platform and pressing the 
+Spacebar.
+
+TELEPORTERS: Teleporters can be identified by an evil symbol 
+on the floor beneath them. To use a teleporter, walk over the 
+symbol.
+
+COMPLETING AN AREA
+At the end of each area in DOOM II there is an exit chamber. Enter 
+this chamber and press the switch inside to exit the area and head 
+onward. When you finish an area, an Achievement Screen tallies 
+your performance. Hidden regions located, ratio of kills, 
+percentage of treasure found, your completion time, and a par 
+completion time are all displayed.
+
+ETERNAL LIFE AFTER DEATH
+If you die, you restart the level at the beginning with a pistol and 
+some bullets. You have no "lives" limit - you can keep restarting 
+the level as often as you're killed. The entire level is restarted from 
+scratch, too. Monsters you killed before are back again, just like 
+you.
+
+
+FIREPOWER AND HOW TO USE IT
+
+WEAPONS: At first, you have only your pistol and your fists for 
+protection. When you run over a new weapon, you'll automatically 
+equip yourself with it. As the game progresses, you'll need to 
+choose between firearms. The numeric keys select particular 
+weapons (you cannot use the keypad keys for this selection). The 
+weapons are:
+
+1 = Fist/Chainsaw       2 = Pistol
+Note: When you walk across the chainsaw it replaces your fist as 
+the current weapon.     
+
+3 = Shotguns/Combat Shotguns can deliver a heavy punch at close 
+range and a generous pelting from a distance. 
+Combat shotguns are double-barrelled, sawed-off killing sticks. 
+These gats are the ultimate in pellet warfare. Beware, two barrels 
+not only deliver more fire power, but takes more time to reload. 
+*Pressing the "3" key will toggle between the Shotgun and the 
+Combat Shotgun.
+
+4 = Chainguns direct heavy firepower into your opponent, making 
+him do the chaingun cha-cha.
+
+5 = Rocket Launchers deliver an explosive rocket that can turn 
+several baddies inside-out.
+
+6 = Plasma Rifles shoot multiple rounds of plasma energy - frying 
+some demon butt!
+
+7 = BFG 9000s are the prize of the military's
+arsenal. Great for clearing the room of those unwelcome guests. 
+Shoot it and see for yourself.
+
+FIRING: To use a weapon, point it towards the enemy and press 
+the Ctrl key, or hold down the Ctrl key for rapid fire. If your shots hit 
+a bad guy, you'll see splattering blood. Don't worry if the enemy is 
+higher or lower than you. If you can see a monster, you can shoot 
+it.
+AMMO: Different weapons use different types of ammo. When you 
+run over ammo DOOM II automatically loads the correct weapon.
+
+
+Small Ammo      Large Ammo      Weapon
+	Clip    Ammo Box        Pistol, Chaingun
+	Shells  Box of Shells   Shotgun
+	Rocket  Rocket Case     Rocket Launcher
+	Cell    Bulk Cell       Plasma Rifle, BFG 9000
+
+You have a maximum limit on the amount of ammo you can carry, 
+too. These are listed on the right side of your status bar. Also, 
+when you find a weapon that you already possess, don't scorn it! 
+Picking it up also gives you ammo.
+
+COMMANDS AND SHORTCUTS
+
+Pause Key = Pause       Esc Key = Menu          Tab = Automap (on/off)
+F1 = Help               F2 = Save               F3 = Load
+F4 = Sound Volume       F5 = Graphic Detail     F6 = Quicksave
+F7 = End Game           F8 = Toggle Messages    F9 = Quickload
+F10 = Quit              F11 = Gamma Correction  - = Reduce View         
++ = Increase View
+
+COMMANDS USED ONLY IN AUTOMAP
+F = Follow mode (on/off)        M = Mark place  C = Clear Marks
++ = Zoom in     - = Zoom out    0 = Full map/Zoom
+
+WEAPONS SELECTION
+1 = Fist/Chainsaw       2 = Pistol      3 = Shotgun /Combat Shotgun
+4 = Chaingun    5 = Rocket Launcher     6 = Plasma Rifle
+7 = BFG 9000
+
+MOVEMENT KEYS
+Move Forward            Up Arrow, Mouse Button 2
+Move Backward           Down Arrow
+Turn Left               Left Arrow
+Turn Right              Right Arrow
+Run Forward             Shift + Up Arrow
+Run Backward            Shift + Down Arrow
+Fast Left Turn          Shift + Left Arrow
+Fast Right Turn         Shift + Right Arrow
+Strafe Left             Alt + Left Arrow
+Strafe Right            Alt + Right Arrow
+
+FIRING YOUR WEAPON      OPENING DOORS/FLIP SWITCHES
+Ctrl Key                Space Bar
+Mouse Button 1          Double-click Mouse Button 2
+Joystick Button 1       Joystick Button 2
+	Double-click Mouse Button 3
+
+TIP: When you're comfortable playing the game, try using the 
+keyboard and the mouse simultaneously. The mouse provides fine 
+control for aiming your weapon (allowing you to smoothly rotate 
+right and left) while the keyboard permits you to activate the many 
+useful functions of the game.
+
+DANGEROUS DOOM II ENVIRONMENT
+
+Some parts of the DOOM II environment can be more dangerous 
+than the monsters you'll face. Areas containing exploding barrels, 
+radioactive waste, or crushing ceilings should be approached with 
+caution.
+
+EXPLODING BARRELS: Scattered around the base are drums 
+containing fuel, toxic waste, or some other volatile substance. If 
+your shots hit one of these barrels, 
+it's kablooey time! It might take several bullets to set off 
+a barrel, but a single blast of any of the other weapons usually 
+does the trick.
+
+SLIME AND OTHER RADIOACTIVE WASTE: Many of the areas in 
+DOOM II contain pools of dangerous liquids that will damage you if 
+you walk through them. There are several varieties of waste, each 
+doing an increasing amount of damage. If it looks fluid, beware!
+
+CRUSHING CEILINGS: Some of the ceilings in DOOM II can 
+smash you, making you cry blood. Often you'll be able to see the 
+ceiling moving before you go under it, but not always. Be careful 
+and Save often!
+      
+TIP: Barrels can often be the most devastating weapon in your 
+arsenal - delivering a body-blasting explosion to all nearby 
+purgatory pedestrians. Wait until several evil guys get next to a 
+barrel and blast away at the can, then watch `em all go boom!
+HEALTH AND ARMOR
+
+Even for a tough hombre like you, DOOM II can be a deadly place. 
+Whenever you are injured, the screen will flash red, and your 
+health will decrease. Keep an eye on your health or you'll end up 
+face down.
+
+HEALING: When you're hurt, you'll want to get your health back as 
+soon as possible. Fortunately, Medikits and Stimpacks are 
+frequently scattered around the base. Grab them if possible.
+
+Stimpacks give you a quick injection of booster enzymes that make 
+you feel like a new man - at least, to a degree.
+
+Medikits are even better, and include bandages, 
+antitoxins, and other medical supplies to make you feel 
+a lot healthier. 
+ARMOR: Two types of body armor can be found laying around. 
+Both reduce damage done to you. Unfortunately, both deteriorate 
+with use, and eventually are destroyed by enemy attacks, leaving 
+you in need of replacement armor.
+
+Security armor is a lightweight kevlar vest that's perfect for riot 
+control.
+
+Combat armor is a heavy duty jacket composed of a titanium 
+derivative - useful for protection against real firepower, like the 
+kind you're gonna face.
+
+If you're wearing armor, you only pick up a replacement suit if it 
+provides more protection than what you're now wearing.
+
+POWER-UPS
+
+Other bits of "challenging electronics" may be found in DOOM II. 
+Most of these are pretty doggone handy, so grab them when able. 
+These special items have a duration of either the entire level, a 
+specific amount of time, or just provide an instant benefit. A few of 
+them affect your game screen so you can tell when they are active. 
+For example, when you pick up a radiation suit, the game screen 
+turns green. As the suit deteriorates the screen will flash. This is a 
+hint to get out of the radioactive ooze now!
+
+Radiation Suits provide protection against radioactivity, heat and 
+other low-intensity forms of energy. Basically, these suits enable 
+you to wade through the radioactive ooze without taking damage. 
+While a suit holds out, your screen will have a greenish tint.
+Duration: Time Based
+
+Berserk Packs heal you, plus act as a super-adrenaline rush, 
+enormously boosting your muscle power. Since you're already a 
+pretty meaty guy, this enhanced strength lets you tear ordinary 
+dolts limb from limb, and you can even splatter those demons 
+without too much trouble. However, you've got to use your Fist 
+attack to get the benefit of the Berserk attack bonus. When you 
+become Berserk, your screen will briefly turn red.
+Duration: One Level
+
+Backpacks increase the amount of ammo you can carry. In 
+addition, whenever you find a backpack, you receive extra 
+ammunition.
+
+Computer Maps are a handy find, updating your Automap with a 
+complete map to the entire area, including all secret or hidden 
+areas. Areas you haven't been to are mapped in grey.
+Duration: One Level
+
+Light Amplification Visors allow you to see clearly even in pitch 
+dark.
+Duration: Time Based
+
+ARTIFACTS
+
+A few artifacts from the other dimension are now laying around and 
+you may want them, too.
+
+Health Potions provide a small boost to your health - 
+even past your normal 100%!
+
+Spiritual Armor provides a little extra protection above and beyond 
+your normal armor.
+
+Soul Spheres are rarely encountered objects that provide a large 
+boost to your health. A close encounter with one of these and you'll 
+feel healthier than ever!
+
+Mega Spheres combine the power of combat armor with the 
+benefits of a Soul Sphere. 
+
+
+
+Blur Artifacts are strange orbs that make it difficult for others to 
+spot you. The enemy can still see you, but most of their attacks will 
+be less than accurate.
+Duration: Time Based
+
+Invulnerability Artifacts render you immune to all damage. Pretty 
+cool, until the effect wears off. When you're invulnerable your 
+screen will be white your punishment for being tough.
+Duration: Time Based
+
+TIP: Create dissension among demons by maneuvering them into a 
+crossfire. If a bad guy is hit by another demon, he'll turn his rage 
+towards the poor jerk with the pitiful aim. If this happens, let 'em at 
+each other - it's always best to let the bad guys do the work for 
+you. (This isn't effective with projectiles fired between demons of 
+the same form.)
+
+THE ENEMY
+
+From the very first moment you enter the door, till the last gunshot 
+of the game, you'll be fighting a host of baddies. Some are just 
+regular guys with a bad attitude, others are straight from Hell. 
+Some of the monsters you'll face aren't shown here. Don't say we 
+didn't warn you.
+
+Former Humans: Just a few days ago, you were probably swapping 
+war stories with one of these guys. Now it's time to swap some lead 
+upside their head.
+
+Former Human Sergeants: Same as above, but much meaner, and 
+tougher. These walking shotguns provide 
+you with a few extra holes if you're not careful!
+
+Former Commando: Geeze, weren't shotgun zombies bad enough? 
+At least when you fade these jerks you get a cool chaingun.
+
+Imps: You thought an imp was a cute little dude in a red suit with a 
+pitchfork. Where did these brown bastards come from? They heave 
+balls o' fire down your throat and take several bullets to die. It's 
+time to find a weapon better than that pistol if you're going to face 
+more than one of these S.O.B.s.
+Demons: Sorta like a shaved gorilla, except with horns, a big head, 
+lots of teeth, and harder to kill. Don't get too close or they'll rip your 
+fraggin' head off.
+
+
+Spectres: Great. Just what you needed. An invisible (nearly) 
+monster.
+
+
+Lost Souls: Dumb. Tough. Flies. On fire. 'Nuff said.
+
+
+Cacodemons: They float in the air, belch ball-lightning, and boast 
+one Hell of a big mouth. You're toast if you get too close to these 
+monstrosities.
+
+
+Hell Knight: Tough as a dump truck and nearly as big, these 
+goliaths are the worst things on two legs since Tyrannosaurus rex. 
+
+
+Barons of Hell: The Hell Knight was bad news, but this is Big 
+Daddy. These bruisers are a lot like Hell Knights, but look a little 
+different and are twice as tough to kill.
+
+
+
+Arachnotron: Maybe cybernetics wasn't such a great idea after all. 
+Look what the demons have done with it. It seems unfair somehow 
+you're not the only guy in Hell with a plasma gun. 
+
+
+Pain Elemental: What a name. And what a guy. Killing him is 
+almost as bad as letting him live. 
+
+
+Revenant: Apparently when a demon dies, they pick him up, dust 
+him off,  wire him some combat gear, and send him back into 
+battle. No rest for the wicked, eh? You wish your missiles did what 
+his can do. 
+
+
+Mancubus: The only good thing about fatso is that he's a nice wide 
+target. Good thing, because it takes a lot of hits to puncture him. 
+He pumps out fireballs like there was no tomorrow. 
+
+Arch-Vile: One of the worst of a bad lot. You can't think of enough 
+rotten things to say about him. He's fast, hard to kill, casts spells, 
+and resurrects dead monsters! At least these suckers are rare. 
+
+
+The Spider Mastermind: You guess the Arachnotrons had to come 
+from somewhere. Hi, mom. She doesn't have a plasma gun, so 
+thank heaven for small favors. Instead, she has a super-chaingun. 
+Crap. 
+
+The Cyberdemon: A missile-launching 
+skyscraper with goat legs. `Nuff said.
+
+FREE!!!! 
+
+
+Original DOOM, The First Episode
+
+Get the first episode of the original DOOM (shareware) Knee Deep 
+in the Dead, FREE. This is the game that started the DOOM craze! 
+Nine full levels of mutant-laden and  blood-spattered action. Be the 
+last Space marine and defend against fearsome beasts still 
+drenched in the blood of your comrades. Lose yourself in a vivid 
+virtual world so real you'll swear the bullets are streaking past your 
+face.
+
+One free DOOM per customer, please. 
+Each additional DOOM, only $5.95
+
+	DGI-1   DOOM    FREE
+	DGI-2   ADDITIONAL DOOM'S       $5.95
+
+
+
+DOOM II Survival Guide
+
+
+Welcome to Hell. There you are, endlessly wading around in toxic 
+cesspools, bumping blindly into blistering hot walls, and getting 
+roasted alive by fireball throwing demons. It's as if the entire 
+underworld is out to  get you. But don't despair, help is on the way. 
+It's called the DOOM II Survival Guide. Inside you'll find:
+	ù The DOOM II maps
+	ù The fastest path to finish each level
+	ù Quick-start survival tips
+	ù And much more!
+
+ - Don't just fight fire with fire - 
+use your head instead. 
+Get the DOOM II Survival Guide.
+
+	DBI-1  DOOM II Survival Guide 
+was $12.95, now only $10.95
+GET IT HERE!
+
+
+The following items are offered exclusively to 
+ - our DOOM II customers, so hurry and order today - 
+before the world ends!
+
+	OFFICIAL DOOM II 
+TEE SHIRT
+	Not Available in Stores!
+	Don't leave DOOM without it! This 100% cotton shirt 
+features the 
+colorful DOOM II logo on the front. The perfect uniform when you 
+are DOOMING! White, one size fits all. Limited quantities.
+	DSI-1   DOOM II Tee Shirt       $14.95
+
+
+DOOM II OFFICIAL PLAYERS CAP
+Not Available in Stores!
+DOOMERS will love this black cap with the DOOM II logo brilliantly 
+screened onto it. Sturdy, it will stay on your head through marathon 
+DOOM II sessions. Wear it with pride. One size fits all. Looks even 
+better with the shirt! Limited quantities.
+DCI-1   DOOM II Cap     $10.95
+DSCI-1  SPECIAL! T-Shirt and Cap        $24.95
+
+
+ID SOFTWARE IS - 
+
+BIZ
+Jay Wilbur
+
+SOFTWARE ENGINEERS
+John Carmack     John Romero     Dave Taylor
+
+ARTISTS
+Adrian Carmack     Kevin Cloud
+
+DESIGNER
+Sandy Petersen
+
+DESIGN AND TECHNICAL SUPPORT
+Shawn Green     American McGee
+
+BIZ ASSISTANT
+Donna Jackson
+
+
+SPECIAL THANKS TO
+
+Music and Sound Effects
+Robert Prince
+
+Model Development
+Gregor Punchatz
+
+Sound Driver
+Paul Radek
+
+Cover Illustration
+Gerald Brom
+
+and to GT Interactive Software
+Installation and Manual batch utilities written by
+Chaka Puplampu
+
+Copyright c 1994 by id Software, Inc.
+DOOM, DOOM II, the DOOM II logo and the DOOM II likeness are 
+trademarks of id Software Inc. 
+All rights reserved. Developed by id Software Inc. Distributed by 
+GT Interactive Software.
+Copyright (C) 1994 GT Interactive Software. All rights reserved.
+
+Copyright (C) 1996 GT Interactive Software. All rights reserved.
+
+IBM is a registered trademark of International Business Machines, 
+Inc. Sound Blaster is a
+registered trademark of Creative Labs, Inc. AdLib is a registered 
+trademark of AdLib Inc.
+Gravis PC Gamepad is a registered trademark of Gravis, Inc.

@@ -1,0 +1,373 @@
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c: In function 'AM_updateLightLev':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c:786:12: warning: type defaults to 'int' in declaration of 'nexttic' [-Wimplicit-int]
+  786 |     static nexttic = 0;
+      |            ^~~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c: In function 'AM_clipMline':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c:859:17: warning: type defaults to 'int' in declaration of 'outcode1' [-Wimplicit-int]
+  859 |     register    outcode1 = 0;
+      |                 ^~~~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c:860:17: warning: type defaults to 'int' in declaration of 'outcode2' [-Wimplicit-int]
+  860 |     register    outcode2 = 0;
+      |                 ^~~~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c:861:17: warning: type defaults to 'int' in declaration of 'outside' [-Wimplicit-int]
+  861 |     register    outside;
+      |                 ^~~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c: In function 'AM_drawFline':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\am_map.c:992:12: warning: type defaults to 'int' in declaration of 'fuck' [-Wimplicit-int]
+  992 |     static fuck = 0;
+      |            ^~~~
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_random.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_map.c:31:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_map.c:30:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: note: this is the location of the previous definition
+    4 | #define MAXINT INT_MAX
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: note: this is the location of the previous definition
+    5 | #define MININT INT_MIN
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomdata.h:28,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_mobj.h:35,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_defs.h:38,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_local.h:33,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_local.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_maputl.c:37:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_maputl.c:34:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: note: this is the location of the previous definition
+    4 | #define MAXINT INT_MAX
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: note: this is the location of the previous definition
+    5 | #define MININT INT_MIN
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\d_event.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\g_game.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_setup.c:36:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_setup.c:34:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: note: this is the location of the previous definition
+    4 | #define MAXINT INT_MAX
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: note: this is the location of the previous definition
+    5 | #define MININT INT_MIN
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\d_ticcmd.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_system.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_bsp.c:33:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_bsp.c:31:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: note: this is the location of the previous definition
+    4 | #define MAXINT INT_MAX
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: note: this is the location of the previous definition
+    5 | #define MININT INT_MIN
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c: In function 'R_GenerateLookup':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c:322:26: warning: implicit declaration of function 'alloca' [-Wimplicit-function-declaration]
+  322 |     patchcount = (byte *)alloca (texture->width);
+      |                          ^~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c:322:26: warning: incompatible implicit declaration of built-in function 'alloca' [-Wbuiltin-declaration-mismatch]
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c: In function 'R_InitTextures':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c:451:19: warning: incompatible implicit declaration of built-in function 'alloca' [-Wbuiltin-declaration-mismatch]
+  451 |     patchlookup = alloca (nummappatches*sizeof(*patchlookup));
+      |                   ^~~~~~
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c: In function 'R_PrecacheLevel':
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_data.c:762:19: warning: incompatible implicit declaration of built-in function 'alloca' [-Wbuiltin-declaration-mismatch]
+  762 |     flatpresent = alloca(numflats);
+      |                   ^~~~~~
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_main.c:38:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: warning: "MAXINT" redefined
+    4 | #define MAXINT INT_MAX
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomdata.h:28,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\p_mobj.h:35,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\d_player.h:36,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\d_net.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\r_main.c:36:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: note: this is the location of the previous definition
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: warning: "MININT" redefined
+    5 | #define MININT INT_MIN
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: note: this is the location of the previous definition
+   54 | #define MININT          ((int)0x80000000)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_bbox.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\v_video.c:37:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:4: warning: "MAXINT" redefined
+    4 | #define MAXINT INT_MAX
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\d_ticcmd.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_system.h:26,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\v_video.c:31:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: note: this is the location of the previous definition
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10/values.h:5: warning: "MININT" redefined
+    5 | #define MININT INT_MIN
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: note: this is the location of the previous definition
+   54 | #define MININT          ((int)0x80000000)
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomdata.h:28,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomstat.h:33,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_video_win32.c:7:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:44: warning: "MAXCHAR" redefined
+   44 | #define MAXCHAR         ((char)0x7f)
+      | 
+In file included from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/windef.h:9,
+                 from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/windows.h:69,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_video_win32.c:2:
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:659: note: this is the location of the previous definition
+  659 | #define MAXCHAR 0x7f
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:45: warning: "MAXSHORT" redefined
+   45 | #define MAXSHORT        ((short)0x7fff)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:661: note: this is the location of the previous definition
+  661 | #define MAXSHORT 0x7fff
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:150:
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/basetsd.h:184: note: this is the location of the previous definition
+  184 | #define MAXINT ((INT) (MAXUINT >> 1))
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:49: warning: "MAXLONG" redefined
+   49 | #define MAXLONG         ((long)0x7fffffff)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:663: note: this is the location of the previous definition
+  663 | #define MAXLONG 0x7fffffff
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:50: warning: "MINCHAR" redefined
+   50 | #define MINCHAR         ((char)0x80)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:658: note: this is the location of the previous definition
+  658 | #define MINCHAR 0x80
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:51: warning: "MINSHORT" redefined
+   51 | #define MINSHORT        ((short)0x8000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:660: note: this is the location of the previous definition
+  660 | #define MINSHORT 0x8000
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/basetsd.h:185: note: this is the location of the previous definition
+  185 | #define MININT ((INT)~MAXINT)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:55: warning: "MINLONG" redefined
+   55 | #define MINLONG         ((long)0x80000000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:662: note: this is the location of the previous definition
+  662 | #define MINLONG 0x80000000
+      | 
+In file included from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\m_misc.h:27,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_system_win32.c:9:
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:44: warning: "MAXCHAR" redefined
+   44 | #define MAXCHAR         ((char)0x7f)
+      | 
+In file included from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/windef.h:9,
+                 from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/windows.h:69,
+                 from E:\Games\doom 2\src\DOOM\linuxdoom-1.10\i_system_win32.c:2:
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:659: note: this is the location of the previous definition
+  659 | #define MAXCHAR 0x7f
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:45: warning: "MAXSHORT" redefined
+   45 | #define MAXSHORT        ((short)0x7fff)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:661: note: this is the location of the previous definition
+  661 | #define MAXSHORT 0x7fff
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:48: warning: "MAXINT" redefined
+   48 | #define MAXINT          ((int)0x7fffffff)
+      | 
+In file included from E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:150:
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/basetsd.h:184: note: this is the location of the previous definition
+  184 | #define MAXINT ((INT) (MAXUINT >> 1))
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:49: warning: "MAXLONG" redefined
+   49 | #define MAXLONG         ((long)0x7fffffff)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:663: note: this is the location of the previous definition
+  663 | #define MAXLONG 0x7fffffff
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:50: warning: "MINCHAR" redefined
+   50 | #define MINCHAR         ((char)0x80)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:658: note: this is the location of the previous definition
+  658 | #define MINCHAR 0x80
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:51: warning: "MINSHORT" redefined
+   51 | #define MINSHORT        ((short)0x8000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:660: note: this is the location of the previous definition
+  660 | #define MINSHORT 0x8000
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:54: warning: "MININT" redefined
+   54 | #define MININT          ((int)0x80000000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/basetsd.h:185: note: this is the location of the previous definition
+  185 | #define MININT ((INT)~MAXINT)
+      | 
+E:\Games\doom 2\src\DOOM\linuxdoom-1.10\doomtype.h:55: warning: "MINLONG" redefined
+   55 | #define MINLONG         ((long)0x80000000)
+      | 
+E:/Soft/Strawberry/c/x86_64-w64-mingw32/include/winnt.h:662: note: this is the location of the previous definition
+  662 | #define MINLONG 0x80000000
+      | 
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -luser32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libgdi32.a when searching for -lgdi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libgdi32.a when searching for -lgdi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libgdi32.a when searching for -lgdi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lgdi32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libgdi32.a when searching for -lgdi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libwinmm.a when searching for -lwinmm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libwinmm.a when searching for -lwinmm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libwinmm.a when searching for -lwinmm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lwinmm: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libwinmm.a when searching for -lwinmm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libws2_32.a when searching for -lws2_32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libws2_32.a when searching for -lws2_32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libws2_32.a when searching for -lws2_32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lws2_32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libws2_32.a when searching for -lws2_32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libm.a when searching for -lm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libm.a when searching for -lm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libm.a when searching for -lm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lm: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libm.a when searching for -lm
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmingw32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0\libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lgcc: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0\libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lgcc_eh: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmoldname: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmingwex: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmsvcrt: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lkernel32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libpthread.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lpthread: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.dll.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libpthread.a when searching for -lpthread
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libadvapi32.a when searching for -ladvapi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -ladvapi32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libadvapi32.a when searching for -ladvapi32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libshell32.a when searching for -lshell32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lshell32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libshell32.a when searching for -lshell32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -luser32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libuser32.a when searching for -luser32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lkernel32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmingw32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingw32.a when searching for -lmingw32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0\libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lgcc: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc.a when searching for -lgcc
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0\libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lgcc_eh: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgcc_eh.a when searching for -lgcc_eh
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmoldname: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmoldname.a when searching for -lmoldname
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmingwex: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmingwex.a when searching for -lmingwex
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lmsvcrt: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a when searching for -lmsvcrt
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib\libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lkernel32: No such file or directory
+E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible E:/Soft/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/libkernel32.a when searching for -lkernel32
+collect2.exe: error: ld returned 1 exit status

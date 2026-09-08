@@ -1,0 +1,36 @@
+===================================================================
+ DOOM II Win32 Port v1.10 (Antigravity Enhanced)
+ Started: 2026-09-08 07:11:59
+ Build:   Sep  8 2026 07:10:24
+===================================================================
+
+Command line: E:\Games\doom 2\doom2.exe -res 1920x1080 -window 
+
+                         DOOM 2: Hell on Earth v1.10                           
+V_Init: allocate screens.
+M_LoadDefaults: Load system defaults.
+Z_Init: Init zone memory allocation daemon. 
+W_Init: Init WADfiles.
+Loaded 1 WAD file(s):
+  [1] E:\Games\doom 2\game/doom2.wad
+===========================================================================
+                 Commercial product - do not distribute!
+         Please report software piracy to the SPA: 1-800-388-PIR8
+===========================================================================
+M_Init: Init miscellaneous info.
+R_Init: Init DOOM refresh daemon - 
+P_Init: Init Playloop state.
+I_Init: Setting up machine state.
+Sound: Windows waveOut initialized (11025 Hz 8-bit mono)
+Music: Windows MCI MIDI Sequencer ready
+D_CheckNetGame: Checking network game status.
+S_Init: Setting up sound.
+Audio initialized: SFX Volume=5/15, Music Volume=7/15
+HU_Init: Setting up heads up display.
+ST_Init: Init status bar.
+
+DOOM II Win32 initialized successfully. Entering main loop.
+
+Video: 1920x1080 (windowed), Internal Canvas: 320x200
+
+DOOM II Win32: exiting cleanly.
