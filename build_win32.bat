@@ -2,7 +2,7 @@
 setlocal
 
 echo ===================================================
-echo   DOOM II Win32 Port - Build Script
+echo   AntiDoom Win32 Port - Build Script
 echo ===================================================
 echo.
 
@@ -25,13 +25,13 @@ echo [1/2] Checking compiler...
 gcc --version | findstr /i "gcc"
 echo.
 
-echo [2/2] Building doom2.exe...
+echo [2/2] Building antidoom.exe...
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0build_win32.ps1"
 if %errorlevel% neq 0 goto :failed
 
 echo.
 echo ===================================================
-echo   [SUCCESS] doom2.exe has been built successfully!
+echo   [SUCCESS] antidoom.exe has been built successfully!
 echo ===================================================
 goto :done
 

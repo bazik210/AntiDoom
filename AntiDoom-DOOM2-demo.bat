@@ -4,7 +4,7 @@ set DOOMWADDIR=%~dp0wad
 set HOME=%~dp0
 
 echo ===================================================
-echo   DOOM II Win32 - AI Bot Demonstration Mode
+echo   AntiDoom - DOOM II AI Bot Demonstration Mode
 echo ===================================================
 echo.
 echo Choose resolution:
@@ -49,10 +49,10 @@ echo 2 - Instant action (jump straight into MAP01)
 choice /c 12 /n /m "Launch: "
 if errorlevel 2 goto instant
 
-"%~dp0doom2.exe" -res %RES% %DISP% -bot %*
+"%~dp0antidoom.exe" -res %RES% %DISP% -bot %*
 goto end
 
 :instant
-"%~dp0doom2.exe" -res %RES% %DISP% -bot -warp 1 %*
+"%~dp0antidoom.exe" -res %RES% %DISP% -bot -warp 1 %*
 
 :end
