@@ -50,10 +50,10 @@ echo 2 - Instant action (jump straight into MAP01)
 choice /c 12 /n /m "Launch: "
 if errorlevel 2 goto instant
 
-"%~dp0antidoom.exe" -res %RES% %DISP% -bot %*
+"%~dp0antidoom.exe" -res %RES% %DISP% -keepaspect -bot %*
 goto end
 
 :instant
-"%~dp0antidoom.exe" -res %RES% %DISP% -bot -warp 1 %*
+"%~dp0antidoom.exe" -res %RES% %DISP% -keepaspect -bot -warp 1 %*
 
 :end

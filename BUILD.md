@@ -1,63 +1,63 @@
-# Инструкция по сборке DOOM II Win32 Port
+# Build Instructions for AntiDoom Win32 Port
 
-Этот проект представляет собой нативный Win32-порт оригинального исходного кода `linuxdoom-1.10` для Windows, скомпилированный с помощью MinGW-w64 GCC.
+**AntiDoom** is a native Win32 source port based on the original `linuxdoom-1.10` codebase, compiled with MinGW-w64 GCC.
 
 ---
 
-## 1. Требования для сборки
+## 1. Prerequisites
 
-Для сборки проекта на вашем компьютере должен быть установлен компилятор **GCC (MinGW-w64)**:
+To build this project on Windows, you need a **GCC (MinGW-w64)** toolchain installed:
 
-- Либо **Strawberry Perl** (включает MinGW GCC по умолчанию в `C:\Strawberry\c\bin` или `E:\Soft\Strawberry\c\bin`)
-- Либо **MSYS2** (`pacman -S mingw-w64-x86_64-gcc`)
-- Либо автономный дистрибутив **w64devkit** / **MinGW-w64**
+- **Strawberry Perl** (includes MinGW-w64 GCC by default in `C:\Strawberry\c\bin` or `E:\Soft\Strawberry\c\bin`)
+- **MSYS2** (`pacman -S mingw-w64-x86_64-gcc`)
+- **w64devkit** or standalone **MinGW-w64** distribution
 
-Проверить доступность компилятора можно в командной строке:
+Verify compiler availability from a terminal:
 ```cmd
 gcc --version
 ```
 
 ---
 
-## 2. Способы сборки
+## 2. Build Methods
 
-### Вариант 1: Быстрая сборка в 1 клик (BAT-файл)
-Просто дважды кликните по файлу:
+### Method 1: 1-Click Batch Build (Recommended)
+Simply double-click:
 ```text
 build_win32.bat
 ```
-Скрипт автоматически проверит наличие компилятора, запустит процесс сборки, покажет результат и оставит окно открытым, чтобы вы могли увидеть статус.
+This batch script automatically locates the GCC compiler, compiles all source modules, reports status, and leaves the window open for review.
 
-### Вариант 2: Через PowerShell
-Из корня проекта выполните команду:
+### Method 2: Via PowerShell
+From the repository root:
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\build_win32.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build_win32.ps1
 ```
 
-### Вариант 3: Напрямую через GCC (вручную из консоли)
-Если вы хотите собрать бинарник одной командой напрямую через GCC:
+### Method 3: Direct GCC Compilation (Manual Command Line)
+To compile the binary in a single command using GCC directly:
 ```cmd
-gcc -O2 -DNORMALUNIX -D_WIN32 -D_CRT_SECURE_NO_WARNINGS -I src/linuxdoom-1.10 -include src/linuxdoom-1.10/win32_compat.h src/linuxdoom-1.10/*.c -o doom2.exe -luser32 -lgdi32 -lwinmm -lws2_32 -lm
+gcc -O2 -DNORMALUNIX -D_WIN32 -D_CRT_SECURE_NO_WARNINGS -I src/linuxdoom-1.10 -include src/linuxdoom-1.10/win32_compat.h src/linuxdoom-1.10/*.c -o antidoom.exe -luser32 -lgdi32 -lwinmm -lws2_32 -lm
 ```
-*(Обратите внимание: `build_win32.ps1` и `build_win32.bat` автоматически исключают неиспользуемые платформенные файлы `i_*_linux.c` / `z_zone.c` и включают файлы `*_win32.c`).*
+*(Note: `build_win32.ps1` and `build_win32.bat` automatically exclude unused Linux platform files like `i_*_linux.c` / `z_zone.c` and compile the Windows implementation modules `*_win32.c`).*
 
 ---
 
-## 3. Результат сборки
+## 3. Build Artifact
 
-В корневой директории появится исполняемый файл:
+Upon successful compilation, the executable is created in the project root:
 ```text
-doom2.exe
+antidoom.exe
 ```
 
 ---
 
-## 4. Проверка сборки и отладка
+## 4. Diagnostics & Troubleshooting
 
-После сборки запустите игру для проверки. При каждом запуске рядом с `doom2.exe` формируется файл журнала:
+Every launch generates an execution log in the same directory as `antidoom.exe`:
 ```text
-doom2.log
+antidoom.log
 ```
-Он содержит полную диагностику: обнаруженные WAD-файлы, инициализацию видео, аудио (waveOut, MCI MIDI) и возможные ошибки запуска.
+The log records subsystem startup sequence, discovered IWADs/PWADs, screen canvas dimensions, audio driver initialization (waveOut, MCI MIDI), and any runtime diagnostics.
 
-Инструкция по запуску игры, выбору разрешения и управлению находится в [README-WIN32.md].
+For gameplay instructions, command-line arguments, and feature guides, see [README.md](README.md) (or [README-RU.md](README-RU.md) for Russian).

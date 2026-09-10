@@ -21,15 +21,27 @@ goto r1
 
 :r4
 set RES=1920x1080
-goto mode
+goto aspect
 :r3
 set RES=1280x720
-goto mode
+goto aspect
 :r2
 set RES=800x600
-goto mode
+goto aspect
 :r1
 set RES=640x480
+
+:aspect
+echo.
+echo Choose aspect ratio:
+echo 1 - Widescreen (16:9 FOV, fills modern screens)
+echo 2 - Classic (4:3 FOV with pillarboxes)
+choice /c 12 /n /m "Aspect Ratio: "
+if errorlevel 2 (
+    set WIDE=-nowidescreen
+) else (
+    set WIDE=-widescreen
+)
 
 :mode
 echo.
@@ -43,4 +55,4 @@ if errorlevel 2 (
     set DISP=-window
 )
 
-"%~dp0antidoom.exe" -iwad "%~dp0wad\DOOM1.WAD" -res %RES% %DISP% %*
+"%~dp0antidoom.exe" -iwad "%~dp0wad\DOOM1.WAD" -res %RES% %DISP% %WIDE% -keepaspect %*
